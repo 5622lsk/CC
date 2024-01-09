@@ -1,0 +1,88 @@
+/*eslint-disable*/
+
+import React from 'react';
+import Header from '../Components/Header';
+import styled from 'styled-components';
+import { Link } from 'react-router-dom';
+import  '../reset.css';
+import Footer from '../Components/Footer';
+
+const Maincontainer = styled.div`
+  text-align: center;
+  line-height: 1.2;
+
+  h1 {
+    color: #6A6A6A;
+    font-size: 45px;
+    letter-spacing: 2px;
+    margin-bottom:10vh;
+  }
+
+  span {
+    color: #000000;
+    font-weight: 800;
+  }
+
+  .mainBox {
+    li {
+      padding-bottom: 10vh;
+    }
+  }
+`;
+
+const MainImageContainer = styled.div`
+  position: relative;
+
+  &:hover {
+    filter: brightness(70%); 
+  }
+`;
+
+const MainImage = styled.img`
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+`;
+
+
+export default function Main() {
+  return (
+    <Maincontainer>
+      <Header />
+      <div>
+        <h1>
+          하고 싶던 모든 것, <br />
+          <span>Creative Connect</span>와 함께.<br />
+        </h1>
+      </div>
+
+      <div className='mainBox'>
+        <ul>
+          <li>
+            <Link to='/community'>
+              <MainImageContainer>
+                <MainImage src={process.env.PUBLIC_URL + '/images/main1.png'} alt="메인이미지1" />
+              </MainImageContainer>
+            </Link>
+          </li>
+          <li>
+            <Link to='/pr'>
+            <MainImageContainer>
+              <MainImage src={process.env.PUBLIC_URL + '/images/main2.png'} alt="메인이미지2" />
+              </MainImageContainer>
+            </Link>
+          </li>
+          <li>
+            <Link to='/promentoring'>
+            <MainImageContainer>
+              <MainImage src={process.env.PUBLIC_URL + '/images/main3.png'} alt="메인이미지3" />
+              </MainImageContainer>
+            </Link>
+          </li>
+        </ul>
+      </div>
+      <Footer />
+    </Maincontainer>
+  );
+}
