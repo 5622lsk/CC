@@ -4,16 +4,18 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 const FooterContain = styled.div`
-  height:10vh;
+  display:flex;
+  height:50px;
   align-items:center;
+  justify-content : center;
   font-size: 16px;
   color: black;
-
 `;
 
 const FooterLink = styled(Link)`
   color: inherit;
   margin-right:3vw;
+  margin-left:3vw;
 `;
 
 export default function Footer() {
