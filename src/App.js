@@ -4,6 +4,9 @@ import Main from "./Pages/Main";
 import './reset.css'
 import Login from "./Pages/Login";
 import Signup from "./Pages/Signup";
+import Creators from "./Pages/Creators";
+import CreatorDetail from "./Pages/CreatorDetail";
+import EditProfile from "./Pages/EditProfile";
 
 
 function App() {
@@ -14,6 +17,13 @@ function App() {
         <Route path="/" element={<Main />}></Route>
         <Route path="/login" element={<Login/>}/>
         <Route path="/signup" element={<Signup/>}/>
+
+
+
+        <Route path="/pr" element={<Creators/>}/>
+        <Route path="/pr/:name" element={<CreatorDetail/>}/>
+        <Route path="/editPr" element={<EditProfile />} />
+
       </Routes>
     </BrowserRouter>
   );

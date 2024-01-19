@@ -36,6 +36,8 @@ const HeaderBottom = styled.div`
   margin-bottom:5vh;
   align-items:center;
   font-size: 20px;
+  font-weight:500;
+  font-color:#FFF;
   @media (max-width: 768px) {
     text-align:center;
 
@@ -49,7 +51,7 @@ const HeaderBottom = styled.div`
   ul {
     display: flex;
     justify-content: flex-end;
-    color: #000000;
+    color: #fff;
     padding-right: 13vh;
 
     @media (max-width: 768px) {
@@ -61,10 +63,7 @@ const HeaderBottom = styled.div`
   li {
     margin-left: 5vh;
   }
-    
-   li:hover{
-      color: #f5f5f5; 
-    }
+ 
 
     @media (max-width: 768px) {
       margin-left: 0;
@@ -85,7 +84,7 @@ const HeaderBottom = styled.div`
 
 const HeaderNavItem = styled(Link)`
 &:hover {
-    color: #584CFF;
+    color: #FB7B6A;
 }
 color: inherit;
 `;

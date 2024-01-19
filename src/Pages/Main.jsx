@@ -10,17 +10,22 @@ import Footer from '../Components/Footer';
 const Maincontainer = styled.div`
   text-align: center;
   line-height: 1.2;
+  background-image:url('/images/Rectangle.png');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  justify-content: center;
 
   h1 {
-    color: #6A6A6A;
+    color: #ccc;
     font-size: 45px;
     letter-spacing: 2px;
     margin-bottom:10vh;
   }
 
   span {
-    color: #000000;
-    font-weight: 800;
+    color: #FB7B6A;
+    font-weight: 700;
   }
 
   .mainBox {
@@ -43,8 +48,10 @@ const MainImage = styled.img`
   height: auto;
   max-width: 100%;
   max-height: 100%;
-`;
+  box-shadow:rgba(0, 0, 0, 0.9);
+  margin-left:-30px;
 
+`;
 
 export default function Main() {
   return (

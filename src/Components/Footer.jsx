@@ -9,7 +9,9 @@ const FooterContain = styled.div`
   align-items:center;
   justify-content : center;
   font-size: 16px;
-  color: black;
+  color: #fff;
+  padding:30px;
+  margin-top:200px;
 `;
 
 const FooterLink = styled(Link)`
