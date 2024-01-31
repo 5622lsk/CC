@@ -6,7 +6,8 @@ import Login from "./Pages/Login";
 import Signup from "./Pages/Signup";
 import Creators from "./Pages/Creators";
 import CreatorDetail from "./Pages/CreatorDetail";
-import EditProfile from "./Pages/EditProfile";
+import EditPr from "./Pages/EditPr";
+import ProfilePage from "./Pages/ProfilePage";
 
 
 function App() {
@@ -17,12 +18,13 @@ function App() {
         <Route path="/" element={<Main />}></Route>
         <Route path="/login" element={<Login/>}/>
         <Route path="/signup" element={<Signup/>}/>
+        <Route path="/profile" element={<ProfilePage/>} />
 
 
 
         <Route path="/pr" element={<Creators/>}/>
         <Route path="/pr/:name" element={<CreatorDetail/>}/>
-        <Route path="/editPr" element={<EditProfile />} />
+        <Route path="/editPr" element={<EditPr />} />
 
       </Routes>
     </BrowserRouter>

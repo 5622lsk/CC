@@ -22,7 +22,10 @@
     "react-youtube": "^10.1.0",
     "redux": "^5.0.1",
     "slick-carousel": "^1.8.1",
-    "styled-components": "^6.1.6",
+    "source-map-loader": "^5.0.0",
+    "styled-components": "^6.1.8",
+    "stylis": "^4.3.1",
+    "typeit-react": "^2.7.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

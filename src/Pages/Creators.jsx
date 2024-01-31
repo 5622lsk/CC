@@ -50,7 +50,7 @@ export default function Creators() {
             fontSize:'40px'
         }}>크리에이터 PR</h3>
         <Button>
-            <Link to='/editPr'>작성하기</Link>
+            <Link to='/editPr' style={{color:"#fff"}}>작성하기</Link>
         </Button>
         <InnerContainer>
         {profile.map((user, index) => (

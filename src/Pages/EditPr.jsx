@@ -38,7 +38,7 @@ const EditButton = styled.button`
   cursor: pointer;
 `;
 
-export default function EditProfile() {
+export default function EditPr() {
   const { id } = useParams(); // useParams로 URL 파라미터 가져오기
   const navigate = useNavigate();
   const [formData, setFormData] = useState(dummy.profile.find(profile => profile.id === id) || {});

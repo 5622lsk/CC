@@ -6,6 +6,7 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import  '../reset.css';
 import Footer from '../Components/Footer';
+import TypeIt from "typeit-react";
 
 const Maincontainer = styled.div`
   text-align: center;
@@ -18,7 +19,7 @@ const Maincontainer = styled.div`
 
   h1 {
     color: #ccc;
-    font-size: 45px;
+    font-size: 2.5rem;
     letter-spacing: 2px;
     margin-bottom:10vh;
   }
@@ -60,8 +61,16 @@ export default function Main() {
       <div>
         <h1>
           하고 싶던 모든 것, <br />
-          <span>Creative Connect</span>와 함께.<br />
+          <TypeIt
+        options={{
+          strings: ["Creative Connect"],
+          speed: 200,
+          waitUntilVisible: true,
+          loop: true,
+        }}
+      />  와 함께!<br />
         </h1>
+
       </div>
 
       <div className='mainBox'>
@@ -93,3 +102,9 @@ export default function Main() {
     </Maincontainer>
   );
 }
+
+
+
+
+
+

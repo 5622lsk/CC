@@ -35,7 +35,7 @@ const HeaderBottom = styled.div`
   justify-content: space-between;
   margin-bottom:5vh;
   align-items:center;
-  font-size: 20px;
+  font-size: 1.2rem;
   font-weight:500;
   font-color:#FFF;
   @media (max-width: 768px) {
