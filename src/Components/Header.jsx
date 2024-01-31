@@ -95,10 +95,10 @@ export default function Header() {
       <HeaderTop>
         <ul>
           <li>
-            <Link to='./login'>로그인</Link>
+            <Link to='/login'>로그인</Link>
           </li>
           <li>
-            <Link to='./profile'>
+            <Link to='/profile'>
               프로필
             </Link>
           </li>

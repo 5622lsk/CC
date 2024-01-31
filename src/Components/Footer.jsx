@@ -11,7 +11,7 @@ const FooterContain = styled.div`
   font-size: 16px;
   color: #fff;
   padding:30px;
-  margin-top:200px;
+  margin: 10px;
 `;
 
 const FooterLink = styled(Link)`

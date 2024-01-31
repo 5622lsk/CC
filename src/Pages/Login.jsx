@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import  '../reset.css';
+//import  '../reset.css';
 import Footer from '../Components/Footer';
 import '../Login.css'
 
@@ -30,7 +30,9 @@ export default function Login() {
           width: "auto",
           height: "70px",
           display: "flex",
-          alignItems: "center"
+          alignItems: "center",
+          fontSize: "xx-large",
+          fontWeight: "bolder"
           }}>
           로그인
         </div>
