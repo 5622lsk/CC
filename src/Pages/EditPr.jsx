@@ -1,11 +1,11 @@
 /*eslint-disable*/
 
 import React, { useState } from "react";
-import { useParams, useNavigate } from "react-router-dom"; // useParams 추가
+import { useParams, useNavigate } from "react-router-dom"; 
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 import styled from "styled-components";
-import { dummy } from "../PrDummy"; // dummy 추가
+import { dummy } from "../PrDummy"; 
 
 const EditProfileContainer = styled.div`
   background-color: #121c2e;

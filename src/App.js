@@ -8,6 +8,7 @@ import Creators from "./Pages/Creators";
 import CreatorDetail from "./Pages/CreatorDetail";
 import EditPr from "./Pages/EditPr";
 import ProfilePage from "./Pages/ProfilePage";
+import EditProfile from "./Pages/EditProfile";
 
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
         <Route path="/login" element={<Login/>}/>
         <Route path="/signup" element={<Signup/>}/>
         <Route path="/profile" element={<ProfilePage/>} />
-
+        <Route path="/editprofile" element={<EditProfile/>} />
 
 
         <Route path="/pr" element={<Creators/>}/>
