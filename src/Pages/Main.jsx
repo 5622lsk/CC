@@ -22,6 +22,12 @@ const Maincontainer = styled.div`
     font-size: 2.5rem;
     letter-spacing: 2px;
     margin-bottom:10vh;
+
+    @media (max-width: 768px) {
+      padding-right: 0;
+      justify-content: center;
+      font-size: 1.8rem;
+    }
   }
 
   span {

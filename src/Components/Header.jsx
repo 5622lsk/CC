@@ -26,7 +26,7 @@ height:80px;
 
   li {
     padding: 1px;
-    margin: 4vh 6vh 0 0; 
+    margin: 7vh 6vh 0 0; 
   }
 `;
 
@@ -43,7 +43,7 @@ const HeaderBottom = styled.div`
 
     ul {
       padding-right: 0;
-      margin-top: 2vh;
+      margin-top: 5vh;
       justify-content: flex-end;
     }
   }
@@ -55,8 +55,9 @@ const HeaderBottom = styled.div`
     padding-right: 13vh;
 
     @media (max-width: 768px) {
-      padding-right: 0;
+      padding-right: 10px;
       justify-content: center;
+      font-size: 1rem;
     }
   }
 
@@ -68,6 +69,7 @@ const HeaderBottom = styled.div`
     @media (max-width: 768px) {
       margin-left: 0;
       margin-bottom: 1vh;
+      padding-right: 10px;
     }
   }
 
