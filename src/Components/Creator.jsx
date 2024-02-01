@@ -8,11 +8,15 @@ const CardContainer = styled.div`
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 10vh;
+    margin: 25px;
     position: relative;
 
     &:hover {
         filter: brightness(90%); 
+    }
+
+    @media (max-width: 1024px) {
+        margin-top: 15vh;
     }
 `;
 

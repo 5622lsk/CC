@@ -59,7 +59,6 @@ const InnerContainer = styled.div`
 `;
 
 
-
 export default function Creators() {
   const { profile } = dummy;
 

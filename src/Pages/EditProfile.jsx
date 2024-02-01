@@ -8,6 +8,7 @@ import YoutubeVerif from '../Components/YoutubeVerif';
 import { Link } from 'react-router-dom';
 import { updateProfile } from '../profileService';
 import { fetchProfile } from '../profileService';
+import '../signup.css'
 
 const EditProfileContainer = styled.div`
   background-color: #121c2e;
